@@ -8,3 +8,16 @@
 body {
     background-color: var(--cor-de-fundo);
 }
+
+.cabecalho {
+    background-color: var(--cor-do-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

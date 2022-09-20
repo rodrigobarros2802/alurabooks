@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Reset CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- JavaScript -->
@@ -50,8 +52,31 @@
     <!-- Início da Section Carrosel -->
     <section class="carrossel">
         <h2 class="carrossel-titulo">últimos lançamentos</h2>
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+    </div>
     </section>
     <!-- Final da Section Carrossel -->
-    
+
+    <!-- Início do Script Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Final do Script Swiper JS -->
 </body>
 </html>

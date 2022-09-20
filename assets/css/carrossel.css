@@ -20,3 +20,8 @@
     position: initial;
     margin: .5em 0;
 }
+
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+}

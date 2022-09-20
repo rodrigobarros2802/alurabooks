@@ -1,0 +1,6 @@
+.banner {
+    text-align: center;
+    padding: 2.5em 2.0em;
+    color: var(--branco);
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}

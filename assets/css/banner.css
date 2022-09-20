@@ -4,3 +4,14 @@
     color: var(--branco);
     background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
+
+.banner-titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-texto {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1em 0;
+}

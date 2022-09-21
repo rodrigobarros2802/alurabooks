@@ -98,4 +98,12 @@
     .container-imagem-none {
         display: none;
     }
+
+    .cabecalho-menu-hamburger {
+        display: none;
+    }
+
+    .opcoes-botao:checked ~ .lista-menu {
+        display: block;
+    }
 }

@@ -34,3 +34,7 @@
     background-position: 1em;
     font-family: var(fonte-principal);
 }
+
+@media screen and (min-width: 1024px) {
+    
+}

@@ -66,6 +66,10 @@
     display: none;
 }
 
+.container-texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container-titulo, .container-titulo-negrito {
         font-family: var(--fonte-secundaria);
@@ -118,5 +122,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container-texto {
+        display: block;
     }
 }
